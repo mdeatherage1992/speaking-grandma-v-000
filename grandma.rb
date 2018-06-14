@@ -14,7 +14,7 @@
 
 def speak_to_grandma(string)
   too_soft = string.downcase
-  just_right = string.uppercase
+  just_right = string.upcase
   if string == "I LOVE YOU GRANDMA!"
     "I LOVE YOU TOO PUMPKIN!"
   elsif string = too_soft
