@@ -19,7 +19,7 @@ def speak_to_grandma(string)
     "I LOVE YOU TOO PUMPKIN!"
   elsif too_soft
     "HUH?! SPEAK UP, SONNY!"
-  elsif just_right
+  else
       "NO, NOT SINCE 1938!"
   end
 end
