@@ -14,7 +14,6 @@
 
 def speak_to_grandma(string)
   just_right = string.upcase
-  mixed = string.
   if string == "I LOVE YOU GRANDMA!"
     "I LOVE YOU TOO PUMPKIN!"
   elsif string == just_right
