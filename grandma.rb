@@ -17,9 +17,9 @@ def speak_to_grandma(string)
   just_right = string.upcase
   if string == "I LOVE YOU GRANDMA!"
     "I LOVE YOU TOO PUMPKIN!"
-  elsif too_soft
+  elsif string == string.downcase
     "HUH?! SPEAK UP, SONNY!"
-  elsif just_right
+  elsif string == string.upcase
       "NO, NOT SINCE 1938!"
   end
 end
