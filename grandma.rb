@@ -13,7 +13,6 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(string)
-  too_soft = string.downcase
   just_right = string.upcase
   mixed = string.
   if string == "I LOVE YOU GRANDMA!"
