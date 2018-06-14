@@ -15,11 +15,12 @@
 def speak_to_grandma(string)
   too_soft = string.downcase
   just_right = string.upcase
+  mixed = string.
   if string == "I LOVE YOU GRANDMA!"
     "I LOVE YOU TOO PUMPKIN!"
-  elsif string == too_soft
-    "HUH?! SPEAK UP, SONNY!"
   elsif string == just_right
       "NO, NOT SINCE 1938!"
+    else
+      "HUH?! SPEAK UP, SONNY!"
   end
 end
